@@ -12,17 +12,20 @@ Build AI-powered personality models of the people around you. Predict their beha
 
 ---
 
-**What makes this different from [colleague-skill](https://github.com/titanwings/colleague-skill)?**
+**Why Persona Compass?**
 
-colleague-skill creates a digital clone that **replaces** your colleague.
-Persona Compass builds a model that helps you **navigate** them.
+Most workplace friction isn't about skills — it's about people. Persona Compass gives you:
 
-| | colleague-skill | Persona Compass |
-|---|---|---|
-| Goal | Simulate a person | Understand a person |
-| Output | AI role-play | Strategy + scripts |
-| Use case | "Work as if you're them" | "How do I get them to agree?" |
-| Input | Feishu/DingTalk API (heavy) | Text description (zero-dep) |
+| | What you get |
+|---|---|
+| 🎯 Predict | How someone will react *before* the conversation happens |
+| 💬 Script | Ready-to-paste Slack/email drafts calibrated to their psychology |
+| 🕸️ Map | Relationship networks, alliances, and influence paths across your org |
+| 🌏 Cultural | Built-in overlays for Chinese, American, Japanese, Korean workplaces |
+| 🔒 Private | Codename system — no real names visible on screen |
+| ⚡ Fast | `/pc prep` or `/pc tone` outputs in 5–30 seconds |
+
+Zero dependencies. No API keys. Works on Claude Code, Claude.ai, and mobile.
 
 ---
 
@@ -243,8 +246,6 @@ PRs welcome! Especially:
 ---
 
 ## Credits
-
-Inspired by [colleague-skill](https://github.com/titanwings/colleague-skill) for the concept of packaging interpersonal knowledge as AI skills.
 
 Built with ❤️ by [@snowyowlmia](https://github.com/snowyowlmia)
 
