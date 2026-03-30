@@ -119,10 +119,17 @@ Daily-use micro-interactions that build habitual usage:
 - Attachment theory (for close relationships)
 
 ### 🎭 Scenario Simulator
-20+ built-in templates across workplace and personal contexts:
-- Deadline slip · Credit dispute · Salary negotiation
-- Territory defense · Skip-level prep · Team restructure
-- Financial discussions · Boundary setting · And more
+20+ built-in templates across 4 categories:
+
+**Workplace — Collaboration:** deadline-slip · resource-request · cross-team-dependency · scope-change
+
+**Workplace — Conflict:** credit-dispute · blame-deflection · territory-invasion · public-disagreement
+
+**Workplace — Career:** promotion-ask · salary-negotiation (+ rejection recovery playbook) · skip-level-meeting · performance-review (+ self-review calibration by boss type)
+
+**Workplace — Boundaries:** saying-no-to-boss · pushing-back-on-deadline · scope-creep-defense · protecting-work-life-balance
+
+**Personal:** financial-discussion · parenting-disagreement · boundary-setting
 
 ### 💬 Communication Script Generator
 Get ready-to-use messages calibrated to the person's psychology:
