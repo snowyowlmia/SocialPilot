@@ -8,7 +8,7 @@ Build AI-powered personality models of the people around you. Predict their beha
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
-[![Bilingual](https://img.shields.io/badge/Language-EN%20%7C%20中文-blue)]()
+![Bilingual](https://img.shields.io/badge/Language-EN%20%7C%20%E4%B8%AD%E6%96%87-blue)
 
 ---
 
