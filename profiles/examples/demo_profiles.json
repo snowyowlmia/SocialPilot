@@ -1,0 +1,142 @@
+{
+  "profiles": [
+    {
+      "slug": "the-micromanager-pm",
+      "name": "Alex Chen",
+      "role": "Senior Product Manager",
+      "relationship": "Cross-functional partner, same org",
+      "disc_type": "D/C",
+      "conflict_style": "competing",
+      "motivation": ["control", "recognition"],
+      "big_five": {
+        "openness": 45,
+        "conscientiousness": 90,
+        "extraversion": 65,
+        "agreeableness": 30,
+        "neuroticism": 55
+      },
+      "behavioral_tags": ["micromanager", "perfectionist", "upward_manager"],
+      "cultural_context": "American tech company, ex-consulting",
+      "stress_response": "Becomes more controlling; increases meeting frequency; starts requesting daily standups",
+      "trust_builders": ["competence", "proactive_communication"],
+      "trust_breakers": ["surprises", "missed_deadlines", "going_around_them"],
+      "trigger_points": [
+        "Finding out about changes from someone else",
+        "Ambiguous timelines",
+        "Being excluded from decision-making"
+      ],
+      "communication_playbook": {
+        "do": [
+          "Send brief status updates before they ask",
+          "Lead with recommendations, not just problems",
+          "CC them on relevant threads proactively",
+          "Book 1:1s for sensitive topics"
+        ],
+        "dont": [
+          "Surprise them in group meetings",
+          "Send long, unstructured emails",
+          "Make decisions in their domain without informing them",
+          "Use hedging language (maybe, I think, possibly)"
+        ],
+        "magic_phrases": [
+          "I want to give you a heads-up before tomorrow's meeting...",
+          "Here's the data, and here's my recommendation...",
+          "I've identified 3 options — here are the tradeoffs..."
+        ],
+        "timing": "Best: Tuesday-Thursday mornings after their 9am standup. Avoid: Monday (planning overload), Friday PM (checkout mode)"
+      }
+    },
+    {
+      "slug": "the-silent-genius",
+      "name": "Wei Zhang",
+      "role": "Staff Engineer",
+      "relationship": "Tech lead on adjacent team",
+      "disc_type": "C",
+      "conflict_style": "avoiding",
+      "motivation": ["autonomy", "achievement"],
+      "big_five": {
+        "openness": 80,
+        "conscientiousness": 75,
+        "extraversion": 20,
+        "agreeableness": 55,
+        "neuroticism": 35
+      },
+      "behavioral_tags": ["silent_type", "perfectionist"],
+      "cultural_context": "Chinese engineer in American tech company",
+      "stress_response": "Withdraws further; stops responding to Slack; works alone late at night",
+      "trust_builders": ["technical_competence", "respecting_their_time"],
+      "trust_breakers": ["wasting_time_in_meetings", "superficial_analysis", "public_pressure"],
+      "trigger_points": [
+        "Being put on the spot in large meetings",
+        "Asked to present without preparation time",
+        "Shallow technical discussions that ignore complexity"
+      ],
+      "communication_playbook": {
+        "do": [
+          "Send questions in advance via document or async message",
+          "Give them time to think (don't expect immediate answers)",
+          "Use written communication (they're more expressive in writing)",
+          "Acknowledge technical depth and nuance"
+        ],
+        "dont": [
+          "Cold-call them in meetings for opinions",
+          "Expect quick Slack responses (they batch-process messages)",
+          "Dismiss technical concerns as over-engineering",
+          "Push for verbal brainstorming (they think internally)"
+        ],
+        "magic_phrases": [
+          "I'd love your written thoughts on this design doc when you have time...",
+          "You raised an important concern last time about X. Can you elaborate in the doc?",
+          "I trust your technical judgment on this — what approach would you recommend?"
+        ],
+        "timing": "Best: Async always. If sync needed: afternoon, 1:1 only, with agenda sent 24hrs ahead"
+      }
+    },
+    {
+      "slug": "the-political-player",
+      "name": "Sarah Kim",
+      "role": "Engineering Director",
+      "relationship": "Skip-level manager",
+      "disc_type": "D/I",
+      "conflict_style": "collaborating (strategic)",
+      "motivation": ["power", "recognition"],
+      "big_five": {
+        "openness": 60,
+        "conscientiousness": 70,
+        "extraversion": 85,
+        "agreeableness": 50,
+        "neuroticism": 30
+      },
+      "behavioral_tags": ["political_player", "upward_manager"],
+      "cultural_context": "Korean-American, 15+ years in big tech, executive track",
+      "stress_response": "Becomes more strategic and calculated; builds alliances faster; may sacrifice short-term relationships for long-term positioning",
+      "trust_builders": ["loyalty", "making_her_look_good", "strategic_thinking"],
+      "trust_breakers": ["disloyalty", "surprises_to_her_boss", "being_a_loose_cannon"],
+      "trigger_points": [
+        "Anyone going above her head without informing her first",
+        "Her direct reports embarrassing her in front of her peers",
+        "Losing organizational territory to rival directors"
+      ],
+      "communication_playbook": {
+        "do": [
+          "Frame your wins as team wins she can showcase upward",
+          "Give her early warning on anything her boss might ask about",
+          "Show strategic thinking, not just execution",
+          "Build a reputation she can point to as evidence of her leadership"
+        ],
+        "dont": [
+          "Go to her boss directly without briefing her first",
+          "Create visibility that could overshadow her",
+          "Bring problems without solutions (she has no patience for this)",
+          "Be unpredictable in cross-org settings"
+        ],
+        "magic_phrases": [
+          "I wanted to brief you before the leadership sync so you're not blindsided...",
+          "This could be a great story for the org — how would you want to position it?",
+          "I'm thinking about this strategically — does this align with your priorities for Q3?"
+        ],
+        "timing": "Best: Beginning of week, proactive briefings. For asks: tie them to her current strategic priorities. Never: right before her boss meetings without advance notice"
+      }
+    }
+  ]
+}
