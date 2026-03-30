@@ -33,30 +33,38 @@ Zero dependencies. No API keys. Works on Claude Code, Claude.ai, and mobile.
 
 ### Install — Claude.ai (Browser, recommended for non-developers)
 
-1. Download this repo as a ZIP
-2. Go to Claude.ai → Settings → Customize → Skills
-3. Upload the skill folder
-4. Done! Claude will auto-activate when you ask about people/communication
+1. [Download this repo as a ZIP](https://github.com/snowyowlmia/persona-compass/archive/refs/heads/main.zip) and unzip it
+2. Go to [claude.ai](https://claude.ai) → Open or create a **Project**
+3. In the Project, click **Add content** → upload the unzipped `persona-compass` folder
+4. Done! In that Project, just describe the person you want to navigate and Claude will activate the skill
 
-No terminal. No coding. Works on Free, Pro, Max, Team, and Enterprise plans.
+> Works on Pro, Max, Team, and Enterprise plans. Projects require a paid plan.
 
 ### Install — Claude Code (Terminal, for developers)
 
 ```bash
-# Project-level
+# Project-level (recommended — skill only active in this project)
 mkdir -p .claude/skills
 git clone https://github.com/snowyowlmia/persona-compass .claude/skills/persona-compass
 
-# Global (all projects)
+# Global (skill active in all your projects)
 git clone https://github.com/snowyowlmia/persona-compass ~/.claude/skills/persona-compass
 ```
 
-### Install — Claude Mobile App
+Then in Claude Code, just type `/persona-compass` or `/pc` to start.
 
-Use in Conversation Mode — no installation needed. Just start a chat and describe
-the person you want to analyze. Claude's memory will retain the persona across sessions.
+### No Installation — Claude Mobile / Free Plan
 
-Zero dependencies. No API keys. No pip install. Just start talking.
+No setup needed. Open any Claude conversation, paste this to get started:
+
+```
+Please read and follow the skill instructions at:
+https://raw.githubusercontent.com/snowyowlmia/persona-compass/main/SKILL.md
+
+Then help me analyze a person I work with.
+```
+
+Claude will follow the full framework in that conversation.
 
 ### Use
 
