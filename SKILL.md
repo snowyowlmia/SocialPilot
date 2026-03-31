@@ -167,9 +167,33 @@ VARIANT B (create urgency):
 on scope vs deadline tradeoff? I have options ready."
 ```
 
+### `/pc list`
+**Show all saved personas.** For when the user forgets which codename maps to which person.
+
+- **Claude Code**: Read all `personas/*/SKILL.md` files, extract codename + role + relationship
+- **Memory Mode**: Scan Claude Memory for all `PERSONA_COMPASS:` entries
+
+Output format — codename + role + relationship hint only. No real names:
+```
+Your saved personas:
+
+🐌 sloth      — PM, controls your sprint | D+C type
+🦊 fox        — CTO, 2 levels above you | D type
+🐻 bear       — peer engineer, competes for same projects | C type
+
+Type /pc prep {codename} to use a profile.
+```
+
+If user asks **"who is sloth again?"** or **"remind me what fox is about"**:
+→ Output 2 lines only. Role + one defining trait. No full card.
+```
+sloth: Your PM who controls sprint prioritization.
+Key trait: Delays instead of refusing. Never says no directly.
+```
+
 ---
 
-## Main Flow: Create New Persona
+
 
 ### Step 1: Quick Start (3 tiers)
 
