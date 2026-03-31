@@ -113,30 +113,44 @@ Compass: Based on David's profile (D-type, high conscientiousness,
 
 ## Features
 
+### 🧠 Generator Mode — One Person, One Skill File
+The core architecture. Analyze someone once, never explain them again.
+
+```
+Step 1:  /persona-compass  →  guided interview about "PM David"
+Step 2:  Claude generates   →  personas/david/SKILL.md
+Step 3:  Next time, just    →  /david
+         Claude instantly knows everything. No re-entry. Ever.
+```
+
+Each person becomes a **self-contained, loadable skill** with full personality model,
+communication playbook, and behavioral predictions baked in.
+Like having a permanent, always-ready dossier on everyone you work with.
+
 ### 🔒 Privacy-First Design
 - **Codename system**: All files and commands use codenames, never real names
 - No one glancing at your screen will know who you're analyzing
-- Best on mobile or incognito tab — designed for sensitive workplace use
-- All data stays local. No telemetry. No cloud sync.
+- All data stays 100% local — no cloud sync, no telemetry
+- Real names only appear in `observations.md` (gitignored by default)
 
 ### ⚡ Quick Commands (5-30 seconds)
-Daily-use micro-interactions that build habitual usage:
-- `/pc prep alpha` → 6-line pre-meeting cheat sheet
-- `/pc tone alpha` → 1-line tone reminder before sending a message
-- `/pc radar` → weekly relationship scan with suggested actions
-- `/pc draft alpha "push back on deadline"` → copy-pasteable message, nothing else
+Once a persona is saved, these commands work instantly:
+- `/pc prep david` → 6-line pre-meeting cheat sheet
+- `/pc tone david` → 1-line tone calibration before sending a message
+- `/pc draft david "push back on deadline"` → copy-pasteable message, nothing else
+- `/pc simulate david "public disagreement in meeting"` → full scenario playbook
+- `/pc update david` → add new observations, model auto-refines
 
 ### 🎯 Three-Tier Persona Building
 - **Quick Sketch**: Name + role + 3 adjectives → instant persona card
 - **Standard Profile**: 8-question guided interview → data-backed model
-- **Deep Analysis**: Chat logs + incident reports → high-fidelity predictions
+- **Deep Analysis**: Paste chat logs + incident reports → high-fidelity predictions
 
-### 🧠 Multi-Framework Personality Modeling
-- Big Five (OCEAN) with confidence scores
+### � Multi-Framework Personality Modeling
+- Big Five (OCEAN) with per-dimension confidence scores
 - DISC behavioral profiling
 - Thomas-Kilmann conflict styles
-- Motivation driver analysis
-- Attachment theory (for close relationships)
+- Motivation driver analysis (Recognition / Power / Security / Achievement / Belonging / Autonomy)
 
 ### 🎭 Scenario Simulator
 20+ built-in templates across 4 categories:
@@ -145,33 +159,27 @@ Daily-use micro-interactions that build habitual usage:
 
 **Workplace — Conflict:** credit-dispute · blame-deflection · territory-invasion · public-disagreement
 
-**Workplace — Career:** promotion-ask · salary-negotiation (+ rejection recovery playbook) · skip-level-meeting · performance-review (+ self-review calibration by boss type)
+**Workplace — Career:** promotion-ask · salary-negotiation · skip-level-meeting · performance-review
 
-**Workplace — Boundaries:** saying-no-to-boss · pushing-back-on-deadline · scope-creep-defense · protecting-work-life-balance
+**Workplace — Boundaries:** saying-no-to-boss · pushing-back-on-deadline · scope-creep-defense
 
 **Personal:** financial-discussion · parenting-disagreement · boundary-setting
 
 ### 💬 Communication Script Generator
-Get ready-to-use messages calibrated to the person's psychology:
-- Slack messages, emails, 1:1 talking points
-- 2-3 strategic variants per scenario
-- Each variant labeled with what it optimizes for
+- Ready-to-paste Slack messages, emails, and 1:1 talking points
+- 2-3 strategic variants per scenario, each labeled by what it optimizes for
+- Scripts calibrated to the person's DISC type, conflict style, and cultural context
 
 ### 🌏 Cross-Cultural Intelligence
-Built-in cultural context engine for:
+Built-in cultural overlay engine:
 - 🇨🇳 Chinese workplace norms (面子, 关系, 酒桌文化)
 - 🇺🇸 American tech culture (radical candor, data-driven, visibility)
-- 🇯🇵🇰🇷🇮🇳 East Asian + South Asian overlays
+- 🇯🇵🇰🇷🇮🇳 East Asian + South Asian behavioral overlays
 - Cross-cultural friction points and bridge strategies
 
-### 📈 Self-Improving Model
-- Track prediction accuracy over time
-- Correct and refine with new observations
-- Model confidence increases with usage
-
 ### 🕸️ Relationship Map (Multi-Persona)
-- Build relationship networks between multiple personas
-- Detect factions, alliances, and rivalry patterns automatically
+- Build relationship networks across multiple saved personas
+- Detect factions, alliances, and rivalry patterns
 - Stakeholder sequencing: calculate the optimal order to approach people
 - Multi-party strategy: coordinate across your entire org network
 - Supports 20-30+ personas with unlimited relationships between them
