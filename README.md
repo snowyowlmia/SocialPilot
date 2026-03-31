@@ -40,18 +40,25 @@ Zero dependencies. No API keys. Works on Claude Code, Claude.ai, and mobile.
 
 > Works on Pro, Max, Team, and Enterprise plans. Projects require a paid plan.
 
-### Install — Claude Code (Terminal, for developers)
+### Install — CLI Agents (Claude Code / OpenClaw)
 
+This skill natively supports file-based **Generator Mode** for CLI agents.
+
+**For Claude Code:**
 ```bash
-# Project-level (recommended — skill only active in this project)
-mkdir -p .claude/skills
+# Project-level (recommended)
 git clone https://github.com/snowyowlmia/persona-compass .claude/skills/persona-compass
-
-# Global (skill active in all your projects)
+# Global 
 git clone https://github.com/snowyowlmia/persona-compass ~/.claude/skills/persona-compass
 ```
 
-Then in Claude Code, just type `/persona-compass` or `/pc` to start.
+**For OpenClaw:**
+```bash
+# Global workspace installation (instantly accessible anywhere)
+git clone https://github.com/snowyowlmia/persona-compass ~/.openclaw/workspace/skills/persona-compass
+```
+
+Then in your CLI agent, just type `/persona-compass` or `/pc` to start.
 
 ### No Installation — Claude Mobile / Free Plan
 

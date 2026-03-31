@@ -1,9 +1,10 @@
 # Persona Skill Generator Template
 
 When the user completes a persona analysis, generate a self-contained SKILL.md
-for that person using the structure below. Write it to `personas/{slug}/SKILL.md`.
+for that person using the structure below. Write it to the appropriate skills directory 
+for the current environment (e.g. `~/.openclaw/workspace/skills/{slug}/SKILL.md` or `.claude/skills/{slug}/SKILL.md`).
 
-This file IS the memory. No external database needed. Claude loads it and
+This file IS the memory. No external database needed. The CLI agent loads it and
 immediately has full context — no re-entry of information required.
 
 ---
@@ -175,12 +176,12 @@ Do NOT ask the user to re-describe this person. Use the profile above directly.
 Tell the user:
 
 ```
-✅ Persona saved: personas/{slug}/SKILL.md
+✅ Persona saved: [path/to/SKILL.md]
 
 {codename}'s profile is now a standalone skill. Next time, just load it directly:
 
-  Claude Code:   /{slug}  (if installed in .claude/skills/)
-  Or reference:  personas/{slug}/SKILL.md
+  CLI (OpenClaw / Claude Code): /{slug}
+  Or manually reference: [path/to/SKILL.md]
 
 Quick commands now available:
   /pc prep     → 30-second pre-meeting cheat sheet

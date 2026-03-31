@@ -326,19 +326,22 @@ Output a structured persona card containing:
 ### Step 5: Generate Persona Skill File (Generator Mode)
 
 Do NOT just save data. Generate a fully self-contained SKILL.md for this person.
-This file IS the memory — Claude Code can load it directly with `/{slug}`.
+This file IS the memory — the CLI agent can load it directly with `/{slug}`.
 No re-entry of information will ever be needed again.
 
 **Follow the template exactly:** `${SKILL_DIR}/prompts/persona_skill_template.md`
 
-**Write to:** `personas/{slug}/SKILL.md`
+**Determine Write Path based on your environment:**
+- If you are running in **OpenClaw**: write to `~/.openclaw/workspace/skills/{slug}/SKILL.md`
+- If you are running in **Claude Code**: write to `./.claude/skills/{slug}/SKILL.md` (if exists) OR `./personas/{slug}/SKILL.md`
+- Default fallback: `./personas/{slug}/SKILL.md`
 
-**Also write:** `personas/{slug}/observations.md` — raw data log (gitignored, real name may appear here)
+**Also write:** `observations.md` in the same directory as the SKILL.md — raw data log (gitignored, real name may appear here).
 
 After writing, confirm to the user with the success message from the template.
 
 > **Why this architecture?** Like colleague-skill, the file itself is the memory layer.
-> One person = one loadable skill. Zero token overhead for context re-entry.
+> One person = one loadable skill. Zero token overhead for context re-entry. OpenClaw and Claude Code natively support this.
 
 ---
 
